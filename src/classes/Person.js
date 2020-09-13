@@ -1,25 +1,25 @@
 export default class Person {
-  fullName = '';
+  fullName = "";
 
-  yearOfBirth = '';
+  yearOfBirth = "";
 
-  identifier = '';
+  identifier = "";
 
-  idDate = new Date();
+  idDate = undefined;
 
-  idLocation = '';
+  idLocation = "";
 
-  address = '';
+  address = "";
 
-  honorific = 'Ông';
+  honorific = "Ông";
 
-  houseNumber = '';
+  houseNumber = "";
 
-  districtType = 'huyện';
+  districtType = "Huyện";
 
-  district = '';
+  district = "";
 
-  city = '';
+  city = "";
 
-  cityType = 'tỉnh';
+  cityType = "Tỉnh";
 }
